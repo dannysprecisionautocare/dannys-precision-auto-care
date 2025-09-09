@@ -603,20 +603,21 @@ ul {
     }
     
     .phone-banner__text {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
+        font-weight: 600;
     }
     
     .phone-banner__number {
-        font-size: 0.9rem;
-        padding: 6px 16px;
+        font-size: 1rem;
+        padding: 8px 20px;
     }
     
     .phone-banner {
-        padding: 12px 0;
+        padding: 20px 0;
     }
     
     .hero {
-        padding: 80px 0 80px;
+        padding: 100px 0 80px;
     }
 
     .hero__container {
