@@ -212,6 +212,14 @@ ul {
     margin-bottom: 2rem;
 }
 
+.hero__testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .hero__testimonial {
     text-align: center;
     max-width: 500px;
@@ -672,6 +680,11 @@ ul {
     
     .testimonial__stars i {
         font-size: 1.1rem;
+    }
+    
+    .hero__testimonials {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
 
 
