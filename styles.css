@@ -105,6 +105,19 @@ ul {
     justify-content: center;
 }
 
+.btn--large {
+    padding: 18px 36px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    box-shadow: 0 6px 25px rgba(164, 75, 52, 0.4);
+    border-radius: 12px;
+}
+
+.btn--large:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(164, 75, 52, 0.5);
+}
+
 /* Top Phone Banner */
 .phone-banner {
     background: linear-gradient(135deg, #a44b34, #8b3a2a);
@@ -196,7 +209,7 @@ ul {
 
 .hero__buttons {
     display: flex;
-    gap: 1rem;
+    justify-content: center;
     margin-bottom: 3rem;
 }
 
@@ -611,8 +624,14 @@ ul {
     }
 
     .hero__buttons {
-        flex-direction: column;
-        align-items: center;
+        justify-content: center;
+    }
+    
+    .btn--large {
+        padding: 16px 32px;
+        font-size: 1.1rem;
+        width: 100%;
+        max-width: 400px;
     }
 
 
