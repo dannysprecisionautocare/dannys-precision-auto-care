@@ -244,7 +244,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // On desktop, show a message about mobile calling
             if (window.innerWidth > 768 && !('ontouchstart' in window)) {
                 e.preventDefault();
-                alert('Call us at (786) 583-6805 from your mobile device, or use the contact form below!');
+                alert('Call Danny at (786) 583-6805 from your mobile device, or use the contact form below!');
             }
         });
     });
