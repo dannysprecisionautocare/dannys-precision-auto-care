@@ -107,7 +107,7 @@ ul {
 .phone-banner {
     background: linear-gradient(135deg, #007bff, #0056b3);
     color: white;
-    padding: 8px 0;
+    padding: 12px 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -154,7 +154,7 @@ ul {
 /* Header */
 .header {
     position: fixed;
-    top: 40px;
+    top: 48px;
     left: 0;
     width: 100%;
     background: rgba(255, 255, 255, 0.95);
@@ -207,7 +207,7 @@ ul {
 
 /* Hero Section */
 .hero {
-    padding: 160px 0 80px;
+    padding: 170px 0 80px;
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     min-height: 100vh;
     display: flex;
@@ -645,32 +645,36 @@ ul {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .phone-banner {
+        padding: 10px 0;
+    }
+    
     .phone-banner__content {
-        flex-direction: column;
         gap: 0.5rem;
         padding: 0 10px;
     }
     
     .phone-banner__text {
-        font-size: 0.8rem;
+        font-size: 0.85rem;
+        text-align: center;
     }
     
     .phone-banner__number {
-        font-size: 0.9rem;
-        padding: 6px 16px;
+        font-size: 1rem;
+        padding: 8px 20px;
     }
     
     .header {
-        top: 60px;
+        top: 68px;
     }
     
     .hero {
-        padding: 180px 0 80px;
+        padding: 190px 0 80px;
     }
 
     .nav__menu {
         position: fixed;
-        top: 130px;
+        top: 138px;
         right: -100%;
         width: 100%;
         background: white;
