@@ -597,8 +597,8 @@ ul {
 /* Responsive Design */
 @media (max-width: 768px) {
     .phone-banner__content {
-        flex-direction: column;
-        gap: 0.5rem;
+        flex-direction: row;
+        gap: 1rem;
         padding: 0 10px;
     }
     
