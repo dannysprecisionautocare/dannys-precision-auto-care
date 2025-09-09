@@ -211,7 +211,7 @@ ul {
 
 /* Hero Section */
 .hero {
-    padding: 165px 0 80px;
+    padding: 140px 0 80px;
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     min-height: 100vh;
     display: flex;
@@ -673,7 +673,7 @@ ul {
     }
     
     .hero {
-        padding: 185px 0 80px;
+        padding: 160px 0 80px;
     }
 
     .nav__menu {
