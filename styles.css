@@ -128,6 +128,12 @@ ul {
     font-size: 0.9rem;
 }
 
+.phone-banner__logo {
+    height: 40px;
+    width: auto;
+    filter: brightness(0) invert(1);
+}
+
 .phone-banner__text {
     color: #f6ecd8;
     font-weight: 500;
@@ -381,6 +387,15 @@ ul {
     align-items: center;
 }
 
+.about__headshot {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 20px 40px rgba(164, 75, 52, 0.3);
+    border: 4px solid #a44b34;
+}
+
 .about__image-placeholder {
     width: 350px;
     height: 350px;
@@ -598,8 +613,12 @@ ul {
 @media (max-width: 768px) {
     .phone-banner__content {
         flex-direction: row;
-        gap: 1rem;
+        gap: 0.5rem;
         padding: 0 10px;
+    }
+    
+    .phone-banner__logo {
+        height: 30px;
     }
     
     .phone-banner__text {
@@ -618,6 +637,11 @@ ul {
     
     .hero {
         padding: 100px 0 80px;
+    }
+    
+    .about__headshot {
+        width: 250px;
+        height: 250px;
     }
 
     .hero__container {
