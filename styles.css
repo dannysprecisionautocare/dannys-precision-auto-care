@@ -206,6 +206,18 @@ ul {
     line-height: 1.6;
 }
 
+.hero__logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.hero__logo-img {
+    height: 80px;
+    width: auto;
+    filter: brightness(0) invert(1);
+}
+
 .hero__buttons {
     display: flex;
     justify-content: center;
@@ -672,6 +684,10 @@ ul {
     
     .testimonial__stars i {
         font-size: 1.1rem;
+    }
+    
+    .hero__logo-img {
+        height: 60px;
     }
 
 
