@@ -109,7 +109,7 @@ ul {
 .phone-banner {
     background: linear-gradient(135deg, #a44b34, #8b3a2a);
     color: #f6ecd8;
-    padding: 10px 0;
+    padding: 6px 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -129,7 +129,7 @@ ul {
 }
 
 .phone-banner__logo {
-    height: 40px;
+    height: 28px;
     width: auto;
     filter: brightness(0) invert(1);
 }
@@ -137,6 +137,7 @@ ul {
 .phone-banner__text {
     color: #f6ecd8;
     font-weight: 500;
+    white-space: nowrap;
 }
 
 .phone-banner__number {
@@ -150,6 +151,7 @@ ul {
     border-radius: 20px;
     background: rgba(246, 236, 216, 0.2);
     transition: all 0.3s ease;
+    white-space: nowrap;
 }
 
 .phone-banner__number:hover {
@@ -164,7 +166,7 @@ ul {
 
 /* Hero Section */
 .hero {
-    padding: 60px 0 80px;
+    padding: 50px 0 80px;
     background: linear-gradient(135deg, #f6ecd8 0%, #f0e6d2 100%);
     min-height: 100vh;
     display: flex;
@@ -615,10 +617,11 @@ ul {
         flex-direction: row;
         gap: 0.5rem;
         padding: 0 10px;
+        flex-wrap: nowrap;
     }
     
     .phone-banner__logo {
-        height: 30px;
+        height: 24px;
     }
     
     .phone-banner__text {
@@ -632,11 +635,11 @@ ul {
     }
     
     .phone-banner {
-        padding: 20px 0;
+        padding: 8px 0;
     }
     
     .hero {
-        padding: 120px 0 80px;
+        padding: 100px 0 80px;
     }
     
     .about__headshot {
@@ -717,7 +720,7 @@ ul {
     }
 
     .hero {
-        padding: 140px 0 80px;
+        padding: 120px 0 80px;
     }
 
     .hero__title {
