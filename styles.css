@@ -636,7 +636,7 @@ ul {
     }
     
     .hero {
-        padding: 100px 0 80px;
+        padding: 120px 0 80px;
     }
     
     .about__headshot {
@@ -714,6 +714,10 @@ ul {
 @media (max-width: 480px) {
     .container {
         padding: 0 15px;
+    }
+
+    .hero {
+        padding: 140px 0 80px;
     }
 
     .hero__title {
